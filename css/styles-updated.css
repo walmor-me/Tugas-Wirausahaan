@@ -605,7 +605,8 @@ body {
 /* Contact Section */
 .contact {
     padding: 5rem 0;
-    background: var(--bg-white);
+    background: linear-gradient(135deg, #000000 0%, #333333 100%);
+    color: white;
 }
 
 .contact-content {
@@ -625,6 +626,7 @@ body {
     display: flex;
     align-items: center;
     gap: 1rem;
+    color: white;
 }
 
 .contact-item i {
@@ -640,9 +642,11 @@ body {
 }
 
 .contact-form {
-    background: var(--bg-light);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
     padding: 2rem;
     border-radius: var(--border-radius);
+    border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .contact-form h3 {
@@ -672,7 +676,7 @@ body {
 
 /* Footer */
 .main-footer {
-    background: var(--text-dark);
+    background: linear-gradient(135deg, #000000 0%, #333333 100%);
     color: white;
     padding: 3rem 0 1rem;
 }
@@ -687,6 +691,7 @@ body {
 .footer-section h3,
 .footer-section h4 {
     margin-bottom: 1rem;
+    color: white;
 }
 
 .footer-section ul {
@@ -698,7 +703,7 @@ body {
 }
 
 .footer-section ul li a {
-    color: #9ca3af;
+    color: rgba(255, 255, 255, 0.8);
     text-decoration: none;
     transition: var(--transition);
 }
@@ -710,8 +715,8 @@ body {
 .footer-bottom {
     text-align: center;
     padding-top: 2rem;
-    border-top: 1px solid #374151;
-    color: #9ca3af;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.8);
 }
 
 /* Responsive Design */
